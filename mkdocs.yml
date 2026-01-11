@@ -1,0 +1,20 @@
+site_name: Bible Background
+site_description: Reference library of biblical context notes.
+site_url: https://woodwardmw.github.io/bible-background/
+repo_url: https://github.com/woodwardmw/bible-background
+docs_dir: content
+use_directory_urls: true
+theme:
+  name: mkdocs
+  locale: en
+nav:
+- Home: index.md
+- Genesis:
+  - Overview: genesis/index.md
+  - Chapter 2: genesis/2.md
+plugins:
+- search
+markdown_extensions:
+- admonition
+- toc:
+    permalink: true
