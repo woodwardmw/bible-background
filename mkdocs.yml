@@ -14,11 +14,15 @@ nav:
   - Chapter 2: genesis/2.md
 - Judges:
   - Chapter 14: judges/14.md
+  - Chapter 15: judges/15.md
 - Isaiah:
   - Chapter 24: isaiah/24.md
+  - Chapter 25: isaiah/25.md
 - 1 Peter:
   - Chapter 3: 1-peter/3.md
+  - Chapter 4: 1-peter/4.md
 - Reading days:
+  - Sat 22 Aug 2026: days/2026-08-22.md
   - Fri 21 Aug 2026: days/2026-08-21.md
 plugins:
 - search
