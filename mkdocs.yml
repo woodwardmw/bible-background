@@ -5,8 +5,32 @@ repo_url: https://github.com/woodwardmw/bible-background
 docs_dir: content
 use_directory_urls: true
 theme:
-  name: mkdocs
-  locale: en
+  name: material
+  language: en
+  palette:
+  - media: (prefers-color-scheme)
+    toggle:
+      icon: material/brightness-auto
+      name: Following your browser. Click for light.
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: blue grey
+    accent: indigo
+    toggle:
+      icon: material/brightness-7
+      name: Light. Click for dark.
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: blue grey
+    accent: indigo
+    toggle:
+      icon: material/brightness-4
+      name: Dark. Click to follow your browser.
+  features:
+  - navigation.top
+  - navigation.tracking
+  - search.highlight
+  - toc.follow
 nav:
 - Home: index.md
 - Genesis:
