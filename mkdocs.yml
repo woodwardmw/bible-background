@@ -9,9 +9,15 @@ theme:
   locale: en
 nav:
 - Home: index.md
+- 1 Peter:
+  - Chapter 3: 1-peter/3.md
 - Genesis:
   - Overview: genesis/index.md
   - Chapter 2: genesis/2.md
+- Isaiah:
+  - Chapter 24: isaiah/24.md
+- Judges:
+  - Chapter 14: judges/14.md
 plugins:
 - search
 markdown_extensions:
